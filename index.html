@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>San Diego Top Spots</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDjAnbxriAnA-c8GQ4HftR6oOemSBZdptk&callback=getMap"></script>
+</head>
+
+<body>
+    <!-- Write your markup here -->
+
+    <div class="container">
+    
+    <h1>San Diego Top Spots</h1>
+
+    <button class="btn" id="go-to-map">Go to Map</button>
+
+    <table class="striped">
+        <thead>
+            <tr class="card">
+                <th class="center-align">Name</th>
+                <th class="center-align">Description</th>
+                <th class="center-align">Link</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+
+    <button class="btn" id="go-to-top">Go to Top</button>
+
+    <div id="map"></div>
+
+    </div>
+
+    <!-- Don't forget to add your <script> tag here -->
+        <script src="main.js"></script>
+</body>
+</html>

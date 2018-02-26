@@ -1,0 +1,14 @@
+body {
+    margin-top: 75px;
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+    margin: 50px 0;
+}
+
+#go-to-map, #go-to-top {
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
